@@ -50,7 +50,7 @@ The following line chart provides information on the number of citizens arriving
 The chart that follows states which type of visa female citizens 
 acquired upon their entry in the United states
 
-![AltText](Screenshot(198).png)
+![AltText](images/Screenshot%20(198).png)
 
 
 
