@@ -37,5 +37,14 @@ The following diagram explains the steps in visual form :
 
 ![AltText](images/ETL_DIAGRAM1.png)
 
+## Analysis:
+The data analysis markdown file contains visuals and information that answers some analytical questions about the data ,this visuals was created using power bi 
+by integrating the s3 bucket to power bi web :
+
+![AltText](images/map.gif)
+
+![AltText](images/Animation.gif)
+
+
 ## Note:
 The etl.py script automates the ETl processes of the project in case the data needed to be updated constantly 
