@@ -26,16 +26,16 @@ The etl.py automates the ETL process for this project and stores the data in AWS
 ## Data model
 A star schema was chosen to host the data needed from the stated datasets,the following figure describes said schema:
 
-[AltText](images\tables_schema.png)
+![AltText](images/tables_schema.png)
 
-The steps for this project is as follows:
-    * extract the data from the datasets and perform data preprocessing tasks on them
-    * create the Temporary staging tables to host the cleaned data
-    * Use the staging tables to populate the star schema 
-    * Store the fact and dimensions tables in parquet form and upload them to s3
+ - The steps for this project is as follows:
+    - extract the data from the datasets and perform data preprocessing tasks on them
+    - create the Temporary staging tables to host the cleaned data
+    - Use the staging tables to populate the star schema 
+    - Store the fact and dimensions tables in parquet form and upload them to s3
 The following diagram explains the steps in visual form :
 
-[AltText](images/ETL_DIAGRAM1.png)
+![AltText](images/ETL_DIAGRAM1.png)
 
 ## Note:
 The etl.py script automates the ETl processes of the project in case the data needed to be updated constantly 
