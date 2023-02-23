@@ -1,5 +1,5 @@
 """
-this module contains the sql queries intended to create the tables for the star schema
+ this module contains the sql queries intended to create the tables for the star schema
 """
 #     #create the  dimension tables
 ['create_statments']
